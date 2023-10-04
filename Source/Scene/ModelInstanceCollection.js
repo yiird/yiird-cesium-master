@@ -69,7 +69,6 @@ const LoadState = {
  * @exception {DeveloperError} Must specify either <options.gltf> or <options.url>, but not both.
  * @exception {DeveloperError} Shader program cannot be optimized for instancing. Parameters cannot have any of the following semantics: MODEL, MODELINVERSE, MODELVIEWINVERSE, MODELVIEWPROJECTIONINVERSE, MODELINVERSETRANSPOSE.
  *
- * @private
  */
 function ModelInstanceCollection(options) {
   options = defaultValue(options, defaultValue.EMPTY_OBJECT);

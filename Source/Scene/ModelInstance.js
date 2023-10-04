@@ -1,7 +1,6 @@
 import Matrix4 from "../Core/Matrix4.js";
 
 /**
- * @private
  */
 function ModelInstance(collection, modelMatrix, instanceId) {
   this.primitive = collection;
